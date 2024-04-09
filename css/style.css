@@ -5,7 +5,7 @@ body {
   background-repeat: no-repeat;
   margin: 0;
   width: 1440px;
-  height: 2140px;
+  height: 2705px;
 }
 
 a{
@@ -15,7 +15,7 @@ a{
 
 a:hover{
  color: purple;
- background-color: blue;
+ background-color: #ffb20a;
 }
 
 h1 {
@@ -24,8 +24,10 @@ h1 {
     margin: 5px; 
     color: #ffffff;
     text-decoration: none;
+    text-align: center;
     font-family: "Shippori Mincho B1-Bold", Helvetica;
     font-weight: 700;
+    font-size: 70px;
     border-radius: 5px; 
     border: 6px solid #967ecf;
     background-color: #7483bd;
@@ -41,6 +43,7 @@ h2 {
     border-radius: 5px; 
     border: 6px solid #967ecf;
     background-color: #7483bd;
+    align-items: flex-end;
 }
 
 h3{
@@ -56,6 +59,9 @@ h3{
   border: 6px solid #967ecf;
   background-color: #7483bd;
   max-width: 30%;
+  margin-left: 472px;
+  margin-bottom: 40px;
+  margin-top: 30px;
 }
 
 
@@ -85,6 +91,7 @@ nav {
     position: fixed;
     bottom: 0px;
     width: 100%;
+    z-index: 9999;
    }   
 
    nav a {
@@ -149,6 +156,7 @@ article {
   max-width: 80%;
   border-radius: 100px;
   border: 12px solid #967ecf;
+  margin-left: 10px;
 }
 
 article p {
@@ -198,6 +206,7 @@ article img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-left: 25px;
 }
 #battery article h2{
   display: flex;
@@ -208,6 +217,10 @@ article img {
 
 #motor article {
   max-width: 600px;
+  margin-left: 725px;
+  top: 10%;
+  transform: translateY(-160%);
+  
 }
 
 #motor article img{
@@ -215,6 +228,7 @@ article img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-left: 20px;
 }
 #motor article h2{
   display: flex;
